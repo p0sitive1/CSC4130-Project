@@ -94,7 +94,6 @@ function App() {
         setData(processed);
     }
 
-        
     React.useEffect(() => {
         if (!(firstRender || tmpdata == [])) {
             processData();
